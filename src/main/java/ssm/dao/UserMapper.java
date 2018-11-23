@@ -5,7 +5,7 @@ import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Controller;
 import ssm.pojo.User;
 import ssm.pojo.UserExample;
-@Controller("UserMapper")
+
 public interface UserMapper {
     int countByExample(UserExample example);
 
